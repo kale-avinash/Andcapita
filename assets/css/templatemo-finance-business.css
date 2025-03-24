@@ -1129,8 +1129,7 @@ transform: translateX(5px);
   @media (max-width: 768px) {
     .image-section {
       margin-bottom: 40px;
-      max-width: 350px;
-	  margin-left: 10px;
+      max-width: 400px;
     }
     .small-image{
       position: absolute;
@@ -1139,12 +1138,7 @@ transform: translateX(5px);
       width:250px;
       transform: translateX(-50%);
     }
-	@media (max-width: 768px) {
-		.financial-section {
-		  margin-left: 20px;
-		}
-	  }
-	  
+	
   }
 
 /* Testimonials Style */
