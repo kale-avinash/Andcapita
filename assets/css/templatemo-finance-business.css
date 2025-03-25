@@ -6,10 +6,14 @@ https://templatemo.com/tm-545-finance-business
 
 */
 
+html,body {
+	overflow-x: hidden;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
-  text-rendering: optimizeLegibility;
+/*  overflow-x: hidden;
+*/  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

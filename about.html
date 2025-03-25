@@ -15,16 +15,16 @@
   <!-- Open Graph (OG) for Social Media -->
   <meta property="og:title" content="Andcapita - Business & Financial Consulting">
   <meta property="og:description" content="Your trusted partner in finance, strategy, and business consulting. Maximize your growth with expert solutions.">
-  <meta property="og:image" content="https://yourwebsite.com/assets/img/logo2.png">
-  <meta property="og:url" content="https://yourwebsite.com">
+<!--   <meta property="og:image" content="https://yourwebsite.com/assets/img/logo2.png">
+ -->  <meta property="og:url" content="https://yourwebsite.com">
   <meta property="og:type" content="website">
 
   <!-- Twitter Card for Social Sharing -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Andcapita - Business & Financial Consulting">
   <meta name="twitter:description" content="Expert consulting in finance, investment, and business strategy.">
-  <meta name="twitter:image" content="https://yourwebsite.com/assets/img/logo2.png">
-
+<!--   <meta name="twitter:image" content="https://yourwebsite.com/assets/img/logo2.png">
+ -->
   <!-- Canonical URL -->
   <link rel="canonical" href="https://yourwebsite.com">
 
@@ -55,12 +55,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
   <!-- jQuery and Popper.js -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <!--  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
-
+ -->
   <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
 
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
@@ -82,9 +82,11 @@
       }
   
       /* Hover effect */
-      .icon-circle:hover {
-          background-color: black; /* Change background to black */
-      }
+    .icon-circle:hover {
+    background-color: black;
+    border: 1px solid white; /* Improves visibility */
+}
+
   
       .icon-circle:hover i {
           color: white; /* Keep icon white on hover */
@@ -333,6 +335,9 @@
       </div>
     </div>
 
+
+    
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -353,6 +358,25 @@
           }
       }
     </script>
+
+<script>
+    $(document).ready(function () {
+        var lastScrollTop = 0;
+        $(window).scroll(function () {
+            var currentScroll = $(this).scrollTop();
+
+            if (currentScroll > lastScrollTop && currentScroll > 50) {
+                $(".sub-header").slideUp(); // Hide on scroll down
+            } else if (currentScroll < lastScrollTop || currentScroll <= 50) {
+                $(".sub-header").slideDown(); // Show on scroll up or when at the top
+            }
+
+            lastScrollTop = currentScroll;
+        });
+    });
+</script>
+
+
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
