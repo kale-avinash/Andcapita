@@ -37,30 +37,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
   <!-- Favicon -->
-  <link rel="icon" href="assets/img/logo2.png" type="image/gif" />
+  <link rel="icon" href="assets/img/logo2.png" type="image/gif">
 
   <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="assets/css/fontawesome.css">
+   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
   <link rel="stylesheet" href="assets/css/owl.css">
 
   <!-- Include jQuery, Popper.js, Bootstrap 4.3 JS, and Owl Carousel JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+ 
+ -->
+ <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<!-- Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
   <!-- Include Owl Carousel CSS Testimonial -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+ 
+  <!-- Aos Animation  -->
 
-  <!-- jQuery and Popper.js -->
- <!--  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
- -->
-  <!-- Bootstrap JS -->
-
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
@@ -151,16 +155,16 @@
                 <a class="nav-link" href="about.html">About Us</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Our Services
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="services.html">Services</a>
-                    <a class="dropdown-item" href="industrial_subsidy.html">Industrial Subsidy</a>
-                    <a class="dropdown-item" href="project_finance.html">Project Finance</a>
-                    <a class="dropdown-item" href="business_consultation.html">Business Consultation</a>
-                </div>
-            </li>   
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup=" true" aria-expanded="false">
+               Our Services
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="services.html">Services</a>
+               <a class="dropdown-item" href="industrial_subsidy.html">Industrial Subsidy</a>
+               <a class="dropdown-item" href="project_finance.html">Project Finance</a>
+                <a class="dropdown-item" href="business_consultation.html">Business Consultation</a>
+               </div>
+               </li>
               <li class="nav-item">
                 <a class="nav-link" href="index.html#team">Our Team</a>
               </li> 
@@ -383,6 +387,16 @@
 <script>
 AOS.init();
 </script>
+
+
+
+<!-- Dropdown -->
+<script>
+  $(document).ready(function(){
+    $('.dropdown-toggle').dropdown();
+  });
+</script>
+
 
   </body>
 </html>
