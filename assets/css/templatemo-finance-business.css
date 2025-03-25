@@ -1143,7 +1143,39 @@ transform: translateX(5px);
       width:250px;
       transform: translateX(-50%);
     }
-	
+	.financial-section {
+		padding: 40px 20px;
+		text-align: center;
+	  }
+	  
+	  .image-section {
+		order: -1; /* Image section la text section chya var thevayla */
+		text-align: center;
+		margin-bottom: 30px;
+	  }
+	  
+	  .main-image {
+		width: 90%; 
+		max-width: 350px;
+	  }
+	  
+	  .small-image {
+		width: 150px; 
+		bottom: -20px; 
+		left: 50%;
+		transform: translateX(-50%);
+	  }
+	  
+	  .check-list {
+		padding-left: 0;
+		text-align: left;
+		display: inline-block;
+	  }
+	  
+	  .learn-btn {
+		display: block; /* Button center hoil */
+		margin: 20px auto 0;
+	  }
   }
 
 /* Testimonials Style */
