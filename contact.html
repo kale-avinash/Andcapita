@@ -154,42 +154,95 @@
       </div>
     </div>
 
-    <div class="contact-container ">
-      <div class="contact-item">
-          <div class="icon">
-            <i class="fa fa-phone"></i>
+    <div class="container mt-5">
+      <div class="row">
+    
+        <!-- Phone Section - 6 Columns -->
+        <div class="col-md-6 col-lg-12">
+          <div class="contact-item p-5" 
+               style="background: url('https://img.freepik.com/premium-photo/young-woman-using-smartphone-home-does-remote-work-beautiful-smiling-girl-sitting-floor-works-with-papers-documents-brainstorms-creative-project-with-online-research-sunny-living-room_861143-3561.jpg') no-repeat center center; 
+                      background-size: cover; 
+                    
+                      border-radius: 10px; 
+                      text-align: center; 
+                      transition: transform 0.3s ease-in-out;">
+    
+            <div class="icon">
+              <i class="fa fa-phone" style="font-size: 30px; margin-bottom: 10px;"></i>
+            </div>
+            <div class="text">
+              <h4 style="color: white; font-weight: bold;">Phone</h4>
+              <p style="color: white; font-weight: bold;">Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
+              <a href="tel:+918830629203" style="color: #ffcc00; text-decoration: none; font-weight: bold;">+91 8830629203</a>
+            </div>
           </div>
-          <div class="text">
-            <h4>Phone</h4>
-            <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
-            <a href="tel:+918830629203">+91 8830629203</a>
+        </div>
+    
+        <!-- Email Section - 6 Columns -->
+        <div class="col-md-6 col-lg-12">
+          <div class="contact-item p-5" 
+               style="background: url('https://img.freepik.com/premium-photo/email-marketing-concept-hand-touching-envelope-icon-hologram-with-digital-marketing-strategy_34200-467.jpg') no-repeat center center; 
+                      background-size: cover;
+                  
+                      border-radius: 10px;
+                      text-align: center;
+                      transition: transform 0.3s ease-in-out;">  
+    
+            <div class="icon">
+              <i class="fa fa-envelope" style="font-size: 30px; margin-bottom: 10px;"></i>
+            </div>
+            <div class="text">
+              <h4 style="color: white; font-weight: bold;">Email</h4>
+              <p style="color: white; font-weight: bold;">Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
+              <a href="mailto:info@andcapita.com" style="color: #ffcc00; text-decoration: none; font-weight: bold;">info@andcapita.com</a>
+            </div>
           </div>
+        </div>
+    
       </div>
-
-      <div class="contact-item">
-          <div class="icon">
-            <i class="fa fa-envelope"></i>
+    
+      <div class="row">
+        <!-- Location Section - 12 Columns -->
+        <div class="col-md-12 col-lg-12">
+          <div class="contact-item p-5" 
+               style="background: url('https://img.freepik.com/free-photo/location-pin-symbol-road_1232-900.jpg') no-repeat center center; 
+                      background-size: cover; 
+                      padding: 20px; 
+                      border-radius: 10px; 
+                      text-align: center; 
+                      transition: transform 0.3s ease-in-out;">  
+    
+            <div class="icon">
+              <i class="fa fa-map-marker" style="font-size: 30px; margin-bottom: 10px;"></i>
+            </div>
+            <div class="text">
+              <h4 style="color: white; font-weight: bold;">Location</h4>
+              <p style="color: white; font-weight: bold;">
+                ANDCAPITA, The Hub, A-102, opposite Shete Hospital, <br> 
+                Samartha Nagar, Parijat Nagar, Nashik, Maharashtra 422005
+              </p>
+              <a href="#map" style="color: #ffcc00; text-decoration: none; font-weight: bold;">View on Google Maps</a>
+            </div>
           </div>
-          <div class="text">
-            <h4>Email</h4>
-            <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
-            <a href="mailto:info@andcapita.com">info@andcapita.com</a>
-          </div>
+        </div>
       </div>
+    </div>
+    
+    <!-- Hover Effect Script -->
+    <script>
+      document.querySelectorAll('.contact-item').forEach(item => {
+        item.addEventListener('mouseenter', function() {
+          this.style.transform = 'scale(1.05)';
+        });
+    
+        item.addEventListener('mouseleave', function() {
+          this.style.transform = 'scale(1)';
+        });
+      });
+    </script>
+    
 
-      <div class="contact-item">
-          <div class="icon">
-            <i class="fa fa-map-marker"></i>
-          </div>
-          <div class="text">
-            <h4>Location</h4>
-              <p>
 
-                ANDCAPITA , The Hub, A-102, opposite Shete Hospital, <br> Samartha Nagar, Parijat Nagar, Nashik, Maharashtra 422005</p>
-              <a href="#map" class="color">View on Google Maps</a>
-          </div>
-      </div>
-  </div>
     <!-- Contact Form Section -->
 <div class="callback-form contact-us">
   <div class="container">
