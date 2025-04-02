@@ -319,6 +319,7 @@ header .navbar {
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
+	background-image: url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.1.3/img/toggler-icon.svg");
 }
 .navbar .navbar-toggler {
 	border-color: #fff;
@@ -543,6 +544,7 @@ ul.slick-dots {
 /* Container for 3D flip effect */
 .flip-card {
 	perspective: 1000px;
+
   }
   
   /* Inner wrapper that performs the flip */
@@ -552,11 +554,12 @@ ul.slick-dots {
 	height: 250px; /* Adjust height as needed */
 	transition: transform 0.6s;
 	transform-style: preserve-3d;
-  }
-  
+	
+  }  
   /* Trigger flip on hover */
   .flip-card:hover .flip-card-inner {
 	transform: rotateY(180deg);
+	
   }
   
   /* Front and back sides of the flip card */
@@ -566,6 +569,7 @@ ul.slick-dots {
 	width: 100%;
 	height: 100%;
 	backface-visibility: hidden;
+	
   }
   
   /* Styling the front image */
@@ -573,6 +577,8 @@ ul.slick-dots {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+		border-radius: 10px 10px 0px 0px;
+	
   }
   
   /* Back side styling */
@@ -584,6 +590,7 @@ ul.slick-dots {
 	justify-content: center;
 	align-items: center;
 	transform: rotateY(180deg);
+	
   }
   
   /* Optional: Button styling (adjust as needed) */
@@ -976,6 +983,7 @@ ul.slick-dots {
     }
 }
 /* our team */
+
 
 .doctor-card {
 	transition: transform 0.3s;
@@ -1827,72 +1835,109 @@ footer .contact-form button.filled-button:hover {
 
 
 /* feature */
-
 .business-service {
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  padding: 20px; 
-  border-radius: 10px; 
-  background: white; 
-  transition: box-shadow 0.3s ease-in-out;
-
-}
-.support-section .business-service {
-  padding: 50px 30px;
-  transition: all ease-in-out 0.4s;
-  height: 100%;
- 
-}
-
-.support-section .business-service .icon {
-  margin-bottom: 10px;
-  color:white;
-	margin-left: 70px;
-}
-
-.support-section .business-service .icon i {
-  color: var(--accent-color);
-  font-size: 36px;
-  transition: 0.3s;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+	padding: 20px; 
+	border-radius: 10px; 
+	background: white; 
+	transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+	position: relative;
+	overflow: hidden;
+  }
   
-}
-
-.support-section .business-service h4 {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 20px;
-}
-
-.support-section .business-service h4 a {
-  color: var(--heading-color);
-  transition: ease-in-out 0.3s;
-}
-
-.support-section .business-service p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.support-section .business-service:hover {
-  transform: translateY(-10px);
-  background-color: var(--surface-color);
-  box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
-}
-
-.support-section .business-service:hover h4 a {
-  color: var(--accent-color);
-}
-
-
-@media (max-width: 768px) {
-	.support-section .business-service {
-		width: 100%;
-	  }
-	  .support-section .business-service .icon {
-		  margin-left: 120px;
-	  }
-	  
+  /* Red Hologram Animation Effect */
+  .business-service::before {
+	content: "";
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 300%;
+	height: 300%;
+	background: radial-gradient(circle, rgba(247, 82, 82, 0.946), transparent 80%);
+	opacity: 0;
+	transform: rotate(25deg);
+	transition: opacity 0.2s ease-in-out;
+  }
+  
+  .support-section .business-service {
+	padding: 50px 30px;
+	transition: all ease-in-out 0.4s;
+	height: 100%;
+  }
+  
+  /* Icon Styling */
+  .support-section .business-service .icon {
+	margin-bottom: 10px;
+	color: white;
+	margin-left: 70px;
+  }
+  
+  .support-section .business-service .icon i {
+	color: var(--accent-color);
+	font-size: 36px;
+	transition: 0.3s;
+  }
+  
+  /* Text Styling */
+  .support-section .business-service h4 {
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 20px;
+  }
+  
+  .support-section .business-service h4 a {
+	color: var(--heading-color);
+	transition: ease-in-out 0.3s;
+  }
+  
+  .support-section .business-service p {
+	line-height: 24px;
+	font-size: 14px;
+	margin-bottom: 0;
+  }
+  
+  /* Hover Effect: Red Hologram Glow and Zoom */
+  .support-section .business-service:hover {
+	transform: scale(1.1);
+	/* box-shadow: 0px 0px 10px rgba(235, 86, 86, 0.963), 0px 0px 50px rgba(255, 0, 0, 0.5);  */
+	border: 1px solid rgba(255, 0, 0, 0.8); 
+  }
+  
+  /* Activate red hologram shimmer on hover */
+  .business-service:hover::before {
+	opacity: 1;
+	animation: red-hologram-glow 1.5s infinite linear;
+  }
+  
+  /* Red Hologram Glow Animation */
+  @keyframes red-hologram-glow {
+	0% {
+	  transform: rotate(25deg) translate(-100%, -100%);
+	  background: radial-gradient(circle, #de5e5efa, transparent 70%);
 	}
+	50% {
+	  background: radial-gradient(circle, rgba(255, 50, 50, 0.936), transparent 70%);
+	}
+	100% {
+	  transform: rotate(25deg) translate(100%, 100%);
+	  background: radial-gradient(circle, rgba(255, 0, 0, 0.988), transparent 70%);
+	}
+  }
+  
+  /* Smooth text color change on hover */
+  .support-section .business-service:hover h4 a {
+	color: var(--accent-color);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+	.support-section .business-service {
+	  width: 100%;
+	}
+	.support-section .business-service .icon {
+	  margin-left: 120px;
+	}
+  }
 /* Contact Information */
 
 .contact-information {
@@ -2155,3 +2200,16 @@ p.mt-3 {
 		border-bottom: none!important;
 	}
 }
+
+/* new section */
+/* From Uiverse.io by AyuuLima */ 
+
+/* From Uiverse.io by AyuuLima */ 
+
+  
+/* end new section */
+
+/*[data-aos] {
+  visibility: visible !important;
+}
+*/

@@ -15,16 +15,16 @@
   <!-- Open Graph (OG) for Social Media -->
   <meta property="og:title" content="Andcapita - Business & Financial Consulting">
   <meta property="og:description" content="Your trusted partner in finance, strategy, and business consulting. Maximize your growth with expert solutions.">
-  <meta property="og:image" content="https://yourwebsite.com/assets/img/logo2.png">
-  <meta property="og:url" content="https://yourwebsite.com">
+<!--   <meta property="og:image" content="https://yourwebsite.com/assets/img/logo2.png">
+ -->  <meta property="og:url" content="https://yourwebsite.com">
   <meta property="og:type" content="website">
 
   <!-- Twitter Card for Social Sharing -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Andcapita - Business & Financial Consulting">
   <meta name="twitter:description" content="Expert consulting in finance, investment, and business strategy.">
-  <meta name="twitter:image" content="https://yourwebsite.com/assets/img/logo2.png">
-
+<!--   <meta name="twitter:image" content="https://yourwebsite.com/assets/img/logo2.png">
+ -->
   <!-- Canonical URL -->
   <link rel="canonical" href="https://yourwebsite.com">
 
@@ -37,33 +37,69 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
   <!-- Favicon -->
-  <link rel="icon" href="assets/img/logo2.png" type="image/gif" />
+  <link rel="icon" href="assets/img/logo2.png" type="image/gif">
 
   <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="assets/css/fontawesome.css">
+   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
   <link rel="stylesheet" href="assets/css/owl.css">
 
   <!-- Include jQuery, Popper.js, Bootstrap 4.3 JS, and Owl Carousel JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+ 
+ -->
+ <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<!-- Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
   <!-- Include Owl Carousel CSS Testimonial -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+ 
+<!-- Animate.css for animations -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-  <!-- jQuery and Popper.js -->
+  <!-- Include Animate.css for animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!-- jQuery (required for WOW.js) -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
-  <!-- AOS Annimation -->
+  <!-- Add WOW.js CSS for animations -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+<!-- Add WOW.js JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<script>
+  // Initialize WOW.js
+  document.addEventListener("DOMContentLoaded", function() {
+    new WOW().init();
+  });
+</script>
+
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    AOS.init({
+      once: false,  // Animations trigger every time you scroll
+      mirror: true, // Animates when scrolling back up
+    });
+
+    window.addEventListener('scroll', function () {
+      AOS.refresh(); // Force refresh on scroll
+    });
+  });
+ </script>
 </head>
 
 
@@ -176,7 +212,7 @@
             
             <!-- Right Side: Text -->
             <div class="col-md-8  order-1 order-md-2">
-                <h2 class="font-weight-bold">Industrial Subsidy Schemes</h2>
+                <h2 class="font-weight-bold " data-aos="fade-left" data-aos-duration="1500">Industrial Subsidy Schemes</h2>
                 <p class="text-muted">
                     Industrial subsidy schemes are government initiatives designed to promote business growth by providing financial assistance, tax benefits, and other incentives to eligible enterprises. These schemes aim to encourage investment, employment, and economic development across various sectors and regions. 
                 </p>
@@ -192,7 +228,7 @@
             
             <!-- Right Side: Text -->
             <div class="col-md-8  ">
-                <h2 class="font-weight-bold"> Maharashtra State subsidy Policy</h2>
+                <h2 class="font-weight-bold" data-aos="fade-right" data-aos-duration="1500"> Maharashtra State subsidy Policy</h2>
                 <p class="text-muted">
                     The Maharashtra State Government offers several policies to incentivize industrial growth. These include benefits under the Package Scheme of Incentives (PSI), the Maharashtra State Women Entrepreneurship Policy, and the Maharashtra State Electronic Policy. 
                 </p>
@@ -216,7 +252,7 @@
             
             <!-- Right Side: Text -->
             <div class="col-md-8  order-1 order-md-2">
-                <h2 class="font-weight-bold">Package Scheme of Incentives, 2019</h2>
+                <h2 class="font-weight-bold" data-aos="fade-left" data-aos-duration="1500">Package Scheme of Incentives, 2019</h2>
                 <p class="text-muted">
                     This scheme allows manufacturing units within Maharashtra to claim subsidies up to 100% of their fixed capital investment. These incentives include: 
                     <ul class="incentives-list">
@@ -239,7 +275,7 @@
             
             <!-- Right Side: Text -->
             <div class="col-md-8  ">
-                <h2 class="font-weight-bold">Maharashtra State Women Entrepreneurs Policy – 2017</h2>
+                <h2 class="font-weight-bold"  data-aos="fade-right" data-aos-duration="1500">Maharashtra State Women Entrepreneurs Policy – 2017</h2>
                 <p class="text-muted">
                     This policy supports women entrepreneurs by offering additional incentives such as: 
                     <ul class="incentives-list">
@@ -269,7 +305,7 @@
             
             <!-- Right Side: Text -->
             <div class="col-md-8  order-1 order-md-2">
-                <h2 class="font-weight-bold">Maharashtra State Electronic Policy</h2>
+                <h2 class="font-weight-bold" data-aos="fade-left" data-aos-duration="1500">Maharashtra State Electronic Policy</h2>
                 <p class="text-muted">
                     The Maharashtra State Electronic Policy provides benefits similar to the Package Scheme of Incentives but with additional emphasis on the electronics sector. Eligible units can receive subsidies covering 100% of their investment, irrespective of location within the state.         
                 </p>
@@ -285,7 +321,7 @@
             
             <!-- Right Side: Text -->
             <div class="col-md-8  ">
-                <h2 class="font-weight-bold">Madhya Pradesh State Subsidy Policy</h2>
+                <h2 class="font-weight-bold" data-aos="fade-right" data-aos-duration="1500">Madhya Pradesh State Subsidy Policy</h2>
                 <p class="text-muted">
                     Madhya Pradesh offers comprehensive incentives to promote industrialization across the state. Key schemes include the MSME Development Policy, Startup Policy, and the Electronics Manufacturing Cluster Scheme.                    
                 </p>
@@ -309,7 +345,7 @@
             
             <!-- Right Side: Text -->
             <div class="col-md-8  order-1 order-md-2">
-                <h2 class="font-weight-bold">MSME Development Policy</h2>
+                <h2 class="font-weight-bold" data-aos="fade-left" data-aos-duration="1500">MSME Development Policy</h2>
                 <p class="text-muted">
                     The MSME Development Policy supports micro, small, and medium enterprises with benefits such as: 
                     <ul class="incentives-list">
@@ -332,7 +368,7 @@
             
             <!-- Right Side: Text -->
             <div class="col-md-8  ">
-                <h2 class="font-weight-bold">Startup Policy</h2>
+                <h2 class="font-weight-bold" data-aos="fade-right" data-aos-duration="1500">Startup Policy</h2>
                 <p class="text-muted">
                     The Madhya Pradesh Startup Policy encourages innovation by offering:                 
                         <ul class="incentives-list">
@@ -362,7 +398,7 @@
             
             <!-- Right Side: Text -->
             <div class="col-md-8  order-1 order-md-2">
-                <h2 class="font-weight-bold">Electronics Manufacturing Cluster Scheme</h2>
+                <h2 class="font-weight-bold" data-aos="fade-left" data-aos-duration="1500">Electronics Manufacturing Cluster Scheme</h2>
                 <p class="text-muted">
                     This scheme focuses on promoting electronics manufacturing by providing:                     <ul class="incentives-list">
                         <li> ✅Subsidies covering up to 50% of the project cost for establishing manufacturing units.</li>
@@ -453,6 +489,13 @@
     </script>
 <script>
   AOS.init();
+</script>
+
+
+<script>
+  $(document).ready(function(){
+    $('.dropdown-toggle').dropdown();
+  });
 </script>
   </body>
 </html>

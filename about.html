@@ -37,32 +37,69 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
   <!-- Favicon -->
-  <link rel="icon" href="assets/img/logo2.png" type="image/gif" />
+  <link rel="icon" href="assets/img/logo2.png" type="image/gif">
 
   <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="assets/css/fontawesome.css">
+   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
   <link rel="stylesheet" href="assets/css/owl.css">
 
   <!-- Include jQuery, Popper.js, Bootstrap 4.3 JS, and Owl Carousel JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+ 
+ -->
+  <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<!-- Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
   <!-- Include Owl Carousel CSS Testimonial -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+ 
+<!-- Animate.css for animations -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-  <!-- jQuery and Popper.js -->
- <!--  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
- -->
-  <!-- Bootstrap JS -->
+  <!-- Include Animate.css for animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- jQuery (required for WOW.js) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Add WOW.js CSS for animations -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+<!-- Add WOW.js JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<script>
+  // Initialize WOW.js
+  document.addEventListener("DOMContentLoaded", function() {
+    new WOW().init();
+  });
+</script>
+
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    AOS.init({
+      once: false,  // Animations trigger every time you scroll
+      mirror: true, // Animates when scrolling back up
+    });
+
+    window.addEventListener('scroll', function () {
+      AOS.refresh(); // Force refresh on scroll
+    });
+  });
+ </script>
 
 <style>
       .icon-circle {
@@ -151,16 +188,16 @@
                 <a class="nav-link" href="about.html">About Us</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Our Services
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="services.html">Services</a>
-                    <a class="dropdown-item" href="industrial_subsidy.html">Industrial Subsidy</a>
-                    <a class="dropdown-item" href="project_finance.html">Project Finance</a>
-                    <a class="dropdown-item" href="business_consultation.html">Business Consultation</a>
-                </div>
-            </li>   
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup=" true" aria-expanded="false">
+               Our Services
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="services.html">Services</a>
+               <a class="dropdown-item" href="industrial_subsidy.html">Industrial Subsidy</a>
+               <a class="dropdown-item" href="project_finance.html">Project Finance</a>
+                <a class="dropdown-item" href="business_consultation.html">Business Consultation</a>
+               </div>
+               </li>
               <li class="nav-item">
                 <a class="nav-link" href="index.html#team">Our Team</a>
               </li> 
@@ -200,12 +237,12 @@
                   <img src="assets/img/About3.jpg" alt="Dentist" data-aos="fade-left" data-aos-delay="500">
               </div>
           </div>
-          <div class="col-lg-6 align-self-center">
+          <div class="col-lg-6 align-self-center"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
               <div class="about-content right-content">
-                  <h6>About AND Capita</h6>
-                  <h2>Personal care <br> & healthy living</h2>
+                  <h4 class="wow bounce animate__animated animate__bounce">About AND Capita</h4>
+                  <h2 class="wow animate__animated animate__backInRight">Personal care <br> & healthy living</h2>
                   <p>At AND Capita, we specialize in providing comprehensive financial services tailored to your business needs.<br> Our expertise spans industrial subsidies, project finance, and strategic financial planning, ensuring you get the best possible support to achieve your goals.</p><br>
-<a href="#" class="services-btn filled-button" data-toggle="modal" data-target="#aboutModal">
+<a href="#" class="services-btn filled-button" data-toggle="modal" data-target="#aboutModal" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" >
   SERVICES <i class="icofont-simple-right"></i>
 </a>
               </div>
@@ -264,17 +301,17 @@
           <div class="row">
             <div class="col-md-6">
               <div class="left-image">
-                <img src="assets/img/about.jpg" alt="">
+                <img src="assets/img/about.jpg" alt="" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
               </div>
             </div>
-            <div class="col-md-6 align-self-center">
+            <div class="col-md-6 align-self-center wow bounce animate__animated animate__bounce" >
               <div class="right-content">
-                <span>Our Network</span>
-                <h2>Connecting Businesses to <em>Financial Success</em></h2>
-                <p>AND Capita’s network spans key financial institutions, government bodies, and industry experts, enabling tailored solutions in funding, subsidies, and financial support. <br><br>We connect businesses to resources that drive growth and success</p>
-                <!-- <a href="#" class="filled-button">Read more</a> -->
+                <span  class="wow bounce animate__animated animate__bounce">Our Network</span>
+                <h2  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">Connecting Businesses to <em>Financial Success</em></h2>
+                <p data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1200" >AND Capita’s network spans key financial institutions, government bodies, and industry experts, enabling tailored solutions in funding, subsidies, and financial support. <br><br>We connect businesses to resources that drive growth and success</p>
+                <a href="contact.html" class="filled-button" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1400">Contact Us</a>
               </div>
-            </div>
+            </div> 
           </div>
         </div>
       </div>
@@ -383,6 +420,16 @@
 <script>
 AOS.init();
 </script>
+
+
+
+<!-- Dropdown -->
+<script>
+  $(document).ready(function(){
+    $('.dropdown-toggle').dropdown();
+  });
+</script>
+
 
   </body>
 </html>

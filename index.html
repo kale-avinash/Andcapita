@@ -15,18 +15,16 @@
   <!-- Open Graph (OG) for Social Media -->
   <meta property="og:title" content="Andcapita - Business & Financial Consulting">
   <meta property="og:description" content="Your trusted partner in finance, strategy, and business consulting. Maximize your growth with expert solutions.">
-  <meta property="og:image" content="https://yourwebsite.com/assets/img/logo2.png">
-  <meta property="og:url" content="https://yourwebsite.com">
+<!--   <meta property="og:image" content="https://yourwebsite.com/assets/img/logo2.png">
+ -->  <meta property="og:url" content="https://yourwebsite.com">
   <meta property="og:type" content="website">
 
   <!-- Twitter Card for Social Sharing -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Andcapita - Business & Financial Consulting">
   <meta name="twitter:description" content="Expert consulting in finance, investment, and business strategy.">
-  <meta name="twitter:image" content="https://yourwebsite.com/assets/img/logo2.png">
-
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+<!--   <meta name="twitter:image" content="https://yourwebsite.com/assets/img/logo2.png">
+ -->
   <!-- Canonical URL -->
   <link rel="canonical" href="https://yourwebsite.com">
 
@@ -39,459 +37,506 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
   <!-- Favicon -->
-  <link rel="icon" href="assets/img/logo2.png" type="image/gif" />
+  <link rel="icon" href="assets/img/logo2.png" type="image/gif">
 
   <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="assets/css/fontawesome.css">
+   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
   <link rel="stylesheet" href="assets/css/owl.css">
 
   <!-- Include jQuery, Popper.js, Bootstrap 4.3 JS, and Owl Carousel JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  
+ 
+ -->
+ <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<!-- Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
   <!-- Include Owl Carousel CSS Testimonial -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-
-  <!-- jQuery and Popper.js -->
  
-  <!-- Bootstrap JS -->
-  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
-   <!-- Include jQuery (must be before Bootstrap) -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!-- Animate.css for animations -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-<!-- Include Popper.js (required for Bootstrap dropdowns) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!-- Include Animate.css for animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-<!-- Bootstrap 4.1.3 JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!-- jQuery (required for WOW.js) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+  <!-- Add WOW.js CSS for animations -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
 
+<!-- Add WOW.js JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
-  
+<script>
+  // Initialize WOW.js
+  document.addEventListener("DOMContentLoaded", function() {
+    new WOW().init();
+  });
+</script>
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    AOS.init({
+      once: false,  // Animations trigger every time you scroll
+      mirror: true, // Animates when scrolling back up
+    });
+
+    window.addEventListener('scroll', function () {
+      AOS.refresh(); // Force refresh on scroll
+    });
+  });
+ </script>
 </head>
+<body>
 
-
-  <body>
-
-    <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>  
-    <!-- ***** Preloader End ***** -->
-
-    <!-- Header -->
-    <div class="sub-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-xs-12">
-            <ul class="left-info">
-              <li><a href="mailto:info@andcapita.com"><i class="fa fa-envelope"></i>info@andcapita.com</a></li>
-              <li><a href="tel:+918830629203"><i class="fa fa-phone"></i>+91 8830629203</a></li>
-            </ul>
+      <!-- ***** Preloader Start ***** -->
+      <div id="preloader">
+          <div class="jumper">
+              <div></div>
+              <div></div>
+              <div></div>
           </div>
-          <div class="col-md-4">
-            <ul class="right-icons">
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
+      </div>  
+      <!-- ***** Preloader End ***** -->
+
+      <!-- Header -->
+      <div class="sub-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-xs-12">
+              <ul class="left-info">
+                <li><a href="mailto:info@andcapita.com"><i class="fa fa-envelope"></i>info@andcapita.com</a></li>
+                <li><a href="tel:+918830629203"><i class="fa fa-phone"></i>+91 8830629203</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <ul class="right-icons">
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li> 
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <header class="">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <!-- <a class="navbar-brand" href="index.html"><h2>Finance Business</h2></a> -->
-          <img src="assets/img/logo.png" width="200px" class="ml-3">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <header class="">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <!-- <a class="navbar-brand" href="index.html"><h2>Finance Business</h2></a> -->
+            <img src="assets/img/logo.png" width="200px" class="ml-3">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Our Services
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup=" true" aria-expanded="false">
+                Our Services
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="services.html">Services</a>
-                    <a class="dropdown-item" href="industrial_subsidy.html">Industrial Subsidy</a>
-                    <a class="dropdown-item" href="project_finance.html">Project Finance</a>
-                    <a class="dropdown-item" href="business_consultation.html">Business Consultation</a>
+                <a class="dropdown-item" href="services.html">Services</a>
+                <a class="dropdown-item" href="industrial_subsidy.html">Industrial Subsidy</a>
+                <a class="dropdown-item" href="project_finance.html">Project Finance</a>
+                  <a class="dropdown-item" href="business_consultation.html">Business Consultation</a>
                 </div>
-            </li> 
-              <li class="nav-item">
-                <a class="nav-link" href="#team">Our Team</a>
-              </li> 
-              <li class="nav-item">
-                <a class="nav-link" href="#testimonials">Testimonials</a>
-              </li>                          
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+                </li>
 
-    <!-- Page Content -->
-
-    <!-- Banner Starts Here -->
-    <div class="main-banner header-text" id="top">
-      <div class="Modern-Slider">
-        <!-- Item -->
-        <div class="item item-1">
-          <div class="img-fill">
-              <div class="text-content">
-                <h6>we are ready to help you</h6>
-                <h4>You Dream  We Strategies You Earn.</h4>
-                <p>Your vision is our mission. We craft smart strategies to turn your ideas into success. With expert planning and execution, we help you grow, scale, and maximize profits. Dream big—well handle the strategy, so you can focus on earning.</p>
-                <a href="contact.html" class="filled-button">contact us</a>
-              </div>
-          </div>
-        </div>
-        <!-- // Item -->
-        <!-- Item -->
-        <div class="item item-2">
-          <div class="img-fill">
-              <div class="text-content">
-                <h6>we are here to support you.</h6>
-                <h4>Where Strategy Meets Success.</h4>
-                <p>At AndCapita, we believe that every challenge is an opportunity for growth. Our dedicated approach blends innovation, strategy, and execution to create tailored solutions that drive measurable results. ensuring a future built on excellence and innovation.</p>
-                <a href="services.html" class="filled-button">Services</a>
-              </div>
-          </div>
-        </div>
-        <!-- // Item -->
-        <!-- Item -->
-        <div class="item item-3">
-          <div class="img-fill">
-              <div class="text-content">
-                <h6>we have a solid background.</h6>
-                <h4>Your Trusted Partner in Growth.</h4>
-                <p>Success is not just about reaching goals; its about continuous growth. At AndCapita, we work closely with businesses to develop customized solutions that foster sustainable expansion.  we help you navigate challenges and unlock new opportunities for long-term success.</p>
-                <a href="about.html" class="filled-button">About Us</a>
-              </div>
-          </div>
-        </div>
-        <!-- // Item -->
-      </div>
-  </div>
-  <!-- Banner Ends Here -->
-
-<!-- services section  -->
-<div class="services">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="section-heading" >
-          <h2> <em>Services</em></h2>
-          <span>We provide expert guidance on industrial subsidies, project finance to help businesses thrive.</span>
-        </div>
-      </div>    
-    
-   <!-- Service Card with Flip Effect -->
-   <div class="col-md-4">
-    <div class="service-item">
-      <!-- Flip card container for the image -->
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <!-- Front: Image -->
-          <div class="flip-card-front">
-            <img src="assets/img/services1.jpg" alt="Project Finance">
-          </div>
-          <!-- Back: Service name and button -->
-          <div class="flip-card-back">
-            <h4>Industrial subsidy schemes</h4>
-            <a href='services.html#tabs-1' class="filled-button mt-3">Read More</a>
-          </div>
-        </div>
-      </div>
-      <!-- Down content: Info that remains visible regardless of flip -->
-      <div class="down-content text-center">
-        <h4>Industrial subsidy schemes </h4>
-        <p>
-          There are a lot of ways to finance your business and reach success.
-          There’s no one sure way to fund your activities simply because every
-          investment opportunity is unique.
-        </p>
-    
-      </div>
-    </div>
-  </div>
-  
-
-
-     <!-- Service Card with Flip Effect -->
-     <div class="col-md-4">
-      <div class="service-item">
-        <!-- Flip card container for the image -->
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <!-- Front: Image -->
-            <div class="flip-card-front">
-              <img src="assets/img/services2.jpg" alt="Project Finance">
-            </div>
-            <!-- Back: Service name and button -->
-            <div class="flip-card-back">
-              <h4>Project Finance</h4>
-              <a href='services.html#tabs-2' class="filled-button mt-3">Read More</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#team">Our Team</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>                          
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
             </div>
           </div>
-        </div>
-        <!-- Down content: Info that remains visible regardless of flip -->
-        <div class="down-content text-center">
-          <h4>Project Finance</h4>
-          <p>
-            There are a lot of ways to finance your business and reach success. There’s no one sure way to fund your activities simply because every investment opportunity is unique.
-          </p>
-      
-        </div>
-      </div>
-    </div>
-    
-     
-     
-     <!-- Service Card with Flip Effect -->
-     <div class="col-md-4">
-      <div class="service-item">
-        <!-- Flip card container for the image -->
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <!-- Front: Image -->
-            <div class="flip-card-front">
-              <img src="assets/img/services3.jpg" alt="Project Finance">
-            </div>
-            <!-- Back: Service name and button -->
-            <div class="flip-card-back">
-              <h4>Business Consultation</h4>
-              <a href='services.html#tabs-3' class="filled-button mt-3">Read More</a>
+        </nav>
+      </header>
+
+      <!-- Page Content -->
+
+      <!-- Banner Starts Here -->
+      <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+          <!-- Item -->
+          <div class="item item-1"   >
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>we are ready to help you</h6>
+                  <h4>You Dream  We Strategies You Earn.</h4>
+                  <p class="wow animate__animated animate__backInLeft" data-wow-duration="1s" data-wow-delay="0.5s">Your vision is our mission. We craft smart strategies to turn your ideas into success. With expert planning and execution, we help you grow, scale, and maximize profits. Dream big—well handle the strategy, so you can focus on earning.</p>
+                  <a href="contact.html" class="filled-button">contact us</a>
+                </div>
             </div>
           </div>
-        </div>
-        <!-- Down content: Info that remains visible regardless of flip -->
-        <div class="down-content text-center">
-          <h4>Business Consultation</h4>
-          <p>
-            There are a lot of ways to finance your business and reach success. There’s no one sure way to fund your activities simply because every investment opportunity is unique.
-          </p>
-      
-        </div>
-      </div>
-    </div>
-
-    </div>
-  </div>
-</div>
-<!-- Services section  -->
-
-
-<!-- Financial Planning start -->
-<div class="container financial-section my-5" >
-  <div class="row align-items-center">
-    <!-- IMAGE SECTION -->
-    <div class="col-md-6 order-md-2 image-section text-center">
-      <div class="image-wrapper">
-        <!-- Replace src with your images -->
-        <img src="assets/images/single_service_03.jpg" alt="Main Event" class="main-image">
-        <img src="assets/images/single_service_01.jpg" alt="Small Event" class="small-image">
-      </div>
-    </div>
-
-    <!-- TEXT SECTION -->
-    <div class="col-md-6 order-md-1"  >
-      <h1>Financial Planning</h1>
-      <h2 class="mt-3">Expert Planning Services for Maximizing Financial Benefits</h2>
-      <p class="text-dark">At AND Capita, we offer comprehensive financial planning services designed to optimize your access to subsidies and project finance. Our expertise ensures that your business not only complies with regulatory requirements but also secures the maximum financial benefits available.</p>
-      <ul class="check-list ps-0">
-        <li>Customized subsidy strategies</li>
-        <li>Optimized project financing solutions</li>
-        <li>Enhanced financial security and compliance</li>
-      </ul>
-      <a href="#" class="learn-btn mt-3">Learn More </a>
-    </div>
-  </div>
-</div>
-<!-- Financial Planning end -->
- 
-<!-- Why Choose AND Capita start -->
-<div class="fun-facts">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="left-content">
-          <span>Why Choose AND Capita</span>
-          <h2 id="typing-text">Our solutions for your <em>business growth</em></h2>
-          <p>With a strong focus on delivering results, AND Capita has earned a reputation for successfully securing industrial subsidies, project finance, and government scheme approvals. 
-          <br><br>Our expert team ensures a smooth process for accessing CMEGP, PMEGP, CGTMSE, and preparing industrial licenses like Udyam registration and MPCB clearances. We prioritize accuracy and timely service, helping businesses thrive.</p>
-          <a href="contact.html" class="filled-button">Contact Us</a>
-        </div>
-      </div>
-      <div class="col-md-6 align-self-center">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="count-area-content">
-              <div class="count-digit">300</div>
-              <div class="count-title">subsidy approvals</div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item item-2">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>we are here to support you.</h6>
+                  <h4>Where Strategy Meets Success.</h4>
+                  <p class="wow animate__animated animate__backInLeft" data-wow-duration="1s" data-wow-delay="0.5s">At AndCapita, we believe that every challenge is an opportunity for growth. Our dedicated approach blends innovation, strategy, and execution to create tailored solutions that drive measurable results. ensuring a future built on excellence and innovation.</p>
+                  <a href="services.html" class="filled-button">Services</a>
+                </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="count-area-content">
-              <div class="count-digit">95</div>
-              <div class="count-title">client satisfaction rate</div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item item-3">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>we have a solid background.</h6>
+                  <h4>Your Trusted Partner in Growth.</h4>
+                  <p class="wow animate__animated animate__backInLeft" data-wow-duration="1s" data-wow-delay="0.5s">Success is not just about reaching goals; its about continuous growth. At AndCapita, we work closely with businesses to develop customized solutions that foster sustainable expansion.  we help you navigate challenges and unlock new opportunities for long-term success.</p>
+                  <a href="about.html" class="filled-button">About Us</a>
+                </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="count-area-content">
-              <div class="count-digit">578</div>
-              <div class="count-title">Projects Done</div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="count-area-content">
-              <div class="count-digit">26</div>
-              <div class="count-title">Awards Won</div>
-            </div>
-          </div>
+          <!-- // Item -->
         </div>
-      </div>
     </div>
-  </div>
-</div>
-<!-- Why Choose AND Capita end -->
+    <!-- Banner Ends Here -->
 
-
-<!-- Who we help start -->
-<section id="support-section" class="support-section section">
-
-  <div class="container">
-    <div class="section-heading mt-5">
-      <h2><em>Who we help</em></h2>
-      <span>How AND Capita can support your business growth</span>
-    </div>
-
-    <div class="row gy-4 text-center ">
-
-      <div class="col-xl-3 col-md-6 d-flex mt-4">
-        <div class="business-service position-relative">
-          <div class="icon"><i class="fa fa-heartbeat" style="font-size:36px;"></i></div>
-          <h4><a href="" class="stretched-link">Startups & Entrepreneurs</a></h4>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-xl-3 col-md-6 d-flex mt-4" >
-        <div class="business-service position-relative">
-          <div class="icon"><i class='fas fa-laptop-code' style='font-size:36px'></i></div>
-          <h4><a href="" class="stretched-link">Small & Medium Enterprises</a></h4>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-xl-3 col-md-6 d-flex mt-4" >
-        <div class="business-service position-relative">
-          <div class="icon"><i class='fas fa-building' style='font-size:36px'></i></div>
-          <h4><a href="" class="stretched-link">Manufacturing Firms</a></h4>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-xl-3 col-md-6 d-flex mt-4" >
-        <div class="business-service position-relative">
-          <div class="icon"><i class='far fa-newspaper' style='font-size:36px'></i></div>
-          <h4><a href="" class="stretched-link">Service Providers</a></h4>
-        </div>
-      </div><!-- End Service Item -->
-
-    </div>
-
-  </div>
-
-</section>
-<!-- Who we help end -->
-
-<!-- Testimonials Section -->
-<div class="testimonials" id="testimonials">
-  <div class="container">
+  <!-- services section  -->
+  <div class="services">
+    <div class="container">
       <div class="row">
-          <div class="col-md-12">
-              <div class="section-heading">
-                  <h2><em>Testimonials</em></h2>
-                  <span class="text-white" >Testimonials from our greatest clients</span>
-              </div>
+        <div class="col-md-12">
+          <div class="section-heading" >
+            <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900"> <em>Services</em></h2>
+            <span data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">We provide expert guidance on industrial subsidies, project finance to help businesses thrive.</span>
           </div>
-          <div class="col-md-12">
-              <div class="owl-carousel owl-theme owl-testimonials"> 
-                
-                <div class="testimonial-item text-center">
-                  <img src="assets/img/r-img1.jpg" alt="" class="rounded-circle mb-3">
-                
-                      <h6>Sanjyot Kajale</h6>
+        </div>    
+      
+    <!-- Service Card with Flip Effect -->
+    <div class="col-md-4">
+      <div class="service-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="300">
+        <!-- Flip card container for the image -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <!-- Front: Image -->
+            <div class="flip-card-front">
+              <img src="assets/img/services1.jpg" alt="Project Finance">
+            </div>
+            <!-- Back: Service name and button -->
+            <div class="flip-card-back">
+              <h4>Industrial subsidy schemes</h4>
+              <a href='services.html#tabs-1' class="filled-button mt-3">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Down content: Info that remains visible regardless of flip -->
+        <div class="down-content text-center"  >
+          <h4>Industrial subsidy schemes </h4>
+          <p >
+            There are a lot of ways to finance your business and reach success.
+            There’s no one sure way to fund your activities simply because every
+            investment opportunity is unique.
+          </p>
+      
+        </div>
+      </div>
+    </div>
+    
+
+
+      <!-- Service Card with Flip Effect -->
+      <div class="col-md-4">
+        <div class="service-item">
+          <!-- Flip card container for the image -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <!-- Front: Image -->
+              <div class="flip-card-front">
+                <img src="assets/img/services2.jpg" alt="Project Finance">
+              </div>
+              <!-- Back: Service name and button -->
+              <div class="flip-card-back">
+                <h4>Project Finance</h4>
+                <a href='services.html#tabs-2' class="filled-button mt-3">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Down content: Info that remains visible regardless of flip -->
+          <div class="down-content text-center">
+            <h4>Project Finance</h4>
+            <p >
+              There are a lot of ways to finance your business and reach success. There’s no one sure way to fund your activities simply because every investment opportunity is unique.
+            </p>
+        
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <!-- Service Card with Flip Effect -->
+      <div class="col-md-4">
+        <div class="service-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="300">
+          <!-- Flip card container for the image -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <!-- Front: Image -->
+              <div class="flip-card-front">
+                <img src="assets/img/services3.jpg" alt="Project Finance">
+              </div>
+              <!-- Back: Service name and button -->
+              <div class="flip-card-back">
+                <h4>Business Consultation</h4>
+                <a href='services.html#tabs-3' class="filled-button mt-3">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Down content: Info that remains visible regardless of flip -->
+          <div class="down-content text-center">
+            <h4>Business Consultation</h4>
+            <p >
+              There are a lot of ways to finance your business and reach success. There’s no one sure way to fund your activities simply because every investment opportunity is unique.
+            </p>
+        
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Services section  -->
+
+
+  <!-- Financial Planning start -->
+  <div class="container financial-section my-5"  >
+    <div class="row align-items-center">
+      <!-- IMAGE SECTION -->
+      <div class="col-md-6 order-md-2 image-section text-center">
+        <div class="image-wrapper">
+          <!-- Replace src with your images -->
+          <img src="assets/images/single_service_03.jpg" alt="Main Event" class="main-image" data-aos="fade-up">
+          <img src="assets/images/single_service_01.jpg" alt="Small Event" class="small-image" data-aos="fade-down">
+        </div>
+      </div>
+
+      <!-- TEXT SECTION -->
+      <div class="col-md-6 order-md-1"  >
+        <h1  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="200">Financial Planning</h1>
+       <h2 class="mt-3 wow fadeInUp animate__animated animate__fadeInUp">
+        Expert Planning Services for Maximizing Financial Benefits
+       </h2>
+
+        <p class="text-dark" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="400">At AND Capita, we offer comprehensive financial planning services designed to optimize your access to subsidies and project finance. Our expertise ensures that your business not only complies with regulatory requirements but also secures the maximum financial benefits available.</p>
+        <ul class="check-list ps-0">
+          <li data-aos="fade-right" data-aos-easing="linear" data-aos-duration="700">Customized subsidy strategies</li>
+          <li data-aos="fade-right" data-aos-easing="linear" data-aos-duration="900">Optimized project financing solutions</li>
+          <li data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1100">Enhanced financial security and compliance</li>
+        </ul>
+        <a href="about.html" class="learn-btn mt-3" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1200">Learn More </a>
+      </div>
+    </div>
+  </div>
+  <!-- Financial Planning end -->
+  
+  <!-- Why Choose AND Capita start -->
+  <div class="fun-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="left-content">
+            <span class="wow bounce animate__animated animate__bounce">Why Choose AND Capita</span>
+            <h2 id="typing-text">Our solutions for your <em>business growth</em></h2>
+            <p data-aos="fade-right" data-aos-easing="linear" data-aos-duration="900">With a strong focus on delivering results, AND Capita has earned a reputation for successfully securing industrial subsidies, project finance, and government scheme approvals. 
+            <br><br>Our expert team ensures a smooth process for accessing CMEGP, PMEGP, CGTMSE, and preparing industrial licenses like Udyam registration and MPCB clearances. We prioritize accuracy and timely service, helping businesses thrive.</p>
+            <a href="contact.html" class="filled-button" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">Contact Us</a>
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center">
+          <div class="row"> 
+            <div class="col-md-6" data-aos="flip-left">
+              <div class="count-area-content">
+                <div class="count-digit" >300</div>
+                <div class="count-title">subsidy approvals</div>
+              </div>
+            </div>
+            <div class="col-md-6"  data-aos="flip-left">
+              <div class="count-area-content">
+                <div class="count-digit" >95</div>
+                <div class="count-title">client satisfaction rate</div>
+              </div>
+            </div>
+            <div class="col-md-6"  data-aos="flip-right">
+              <div class="count-area-content">
+                <div class="count-digit" >578</div>
+                <div class="count-title">Projects Done</div>
+              </div>
+            </div>
+            <div class="col-md-6" 
+            data-aos="flip-right">
+              <div class="count-area-content">
+                <div class="count-digit" >26</div>
+                <div class="count-title">Awards Won</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Why Choose AND Capita end -->
+
+
+  <!-- Who we help start -->
+  <section id="support-section" class="support-section section">
+
+    <div class="container">
+      <div class="section-heading mt-5">
+        <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900"><em>Who we help</em></h2>
+        <span data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">How AND Capita can support your business growth</span>
+      </div>
+
+      <div class="row gy-4 text-center ">
+
+        <div class="col-xl-3 col-md-6 d-flex mt-4" data-aos="fade-down-right" data-aos-delay="200">
+          <div class="business-service position-relative">
+            <div class="icon"><i class="fa fa-heartbeat" style="font-size:36px;"></i></div>
+            <h4><a href="" class="stretched-link">Startups & Entrepreneurs</a></h4>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex mt-4" data-aos="fade-down-right" data-aos-delay="400">
+          <div class="business-service position-relative">
+            <div class="icon"><i class='fas fa-laptop-code' style='font-size:36px'></i></div>
+            <h4><a href="" class="stretched-link">Small & Medium Enterprises</a></h4>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex mt-4" data-aos="fade-down-left" data-aos-delay="600">
+          <div class="business-service position-relative">
+            <div class="icon"><i class='fas fa-building' style='font-size:36px'></i></div>
+            <h4><a href="" class="stretched-link">Manufacturing Firms</a></h4>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex mt-4" data-aos="fade-down-left" data-aos-delay="800">
+          <div class="business-service position-relative">
+            <div class="icon"><i class='far fa-newspaper' style='font-size:36px'></i></div>
+            <h4><a href="" class="stretched-link">Service Providers</a></h4>
+          </div>
+        </div><!-- End Service Item -->
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Who we help end -->
+
+  <!-- Testimonials Section -->
+  <div class="testimonials" id="testimonials">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900"><em>Testimonials</em></h2>
+                    <span class="text-white" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">Testimonials from our greatest clients</span>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme owl-testimonials"> 
+                  
+                  <div class="testimonial-item text-center" data-aos="zoom-in">
+                    <img src="assets/img/r-img1.jpg" alt="" class="rounded-circle mb-3">
+                  
+                        <h6>Sanjyot Kajale</h6>
+                        <span>Chief Financial Analyst</span>
+                        <!-- Star Rating -->
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i> <!-- Empty star -->
+                        </div>
+                        <p>"The Industrial Subsidy Schemes helped our business grow by reducing financial burdens. The process was seamless and efficient."</p>
+                    </div>
+              
+
+                <div class="testimonial-item text-center" data-aos="zoom-in">
+                  <img src="assets/img/r-img2.jpg" alt="" class="rounded-circle mb-3">
+                  
+                    <h6>Shruti Tanpure</h6>
                       <span>Chief Financial Analyst</span>
-                      <!-- Star Rating -->
                       <div class="rating">
                           <i class="fas fa-star"></i>
                           <i class="fas fa-star"></i>
                           <i class="fas fa-star"></i>
                           <i class="fas fa-star"></i>
-                          <i class="far fa-star"></i> <!-- Empty star -->
+                          <i class="fas fa-star"></i> <!-- Full stars -->
                       </div>
-                      <p>"The Industrial Subsidy Schemes helped our business grow by reducing financial burdens. The process was seamless and efficient."</p>
-                  </div>
-            
+                      <p>"Thanks to the Project Finance services, we secured funding for our startup with flexible repayment options and expert guidance."</p>
+              </div>
 
               <div class="testimonial-item text-center">
-                <img src="assets/img/r-img2.jpg" alt="" class="rounded-circle mb-3">
+                <img src="assets/img/r-img3.jpg" alt="" class="rounded-circle mb-3">
                 
-                  <h6>Shruti Tanpure</h6>
+                  <h6>Devang Kadam</h6>
                     <span>Chief Financial Analyst</span>
                     <div class="rating">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i> <!-- Full stars -->
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i> <!-- Half stars -->
                     </div>
-                    <p>"Thanks to the Project Finance services, we secured funding for our startup with flexible repayment options and expert guidance."</p>
+                    <p>Thanks to AND Capita's project finance support, we secured timely debt financing to scale our business. </p>
             </div>
 
             <div class="testimonial-item text-center">
-              <img src="assets/img/r-img3.jpg" alt="" class="rounded-circle mb-3">
+              <img src="assets/img/r-img4.jpg" alt="" class="rounded-circle mb-3">
               
-                <h6>Devang Kadam</h6>
+                <h6>Adesh Modke</h6>
                   <span>Chief Financial Analyst</span>
                   <div class="rating">
                       <i class="fas fa-star"></i>
                       <i class="fas fa-star"></i>
                       <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
                       <i class="far fa-star"></i>
-                      <i class="far fa-star"></i> <!-- Half stars -->
                   </div>
-                  <p>Thanks to AND Capita's project finance support, we secured timely debt financing to scale our business. </p>
+                  <p>"Project Finance services offered a structured loan plan tailored to our business needs, ensuring smooth expansion."</p>
           </div>
 
           <div class="testimonial-item text-center">
-            <img src="assets/img/r-img4.jpg" alt="" class="rounded-circle mb-3">
+            <img src="assets/img/r-img5.jpg" alt="" class="rounded-circle mb-3">
             
-              <h6>Adesh Modke</h6>
+              <h6>Harshawardhan Agale</h6>
                 <span>Chief Financial Analyst</span>
                 <div class="rating">
                     <i class="fas fa-star"></i>
@@ -500,479 +545,430 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <p>"Project Finance services offered a structured loan plan tailored to our business needs, ensuring smooth expansion."</p>
+                <p>"Thanks to the Project Finance services, we secured funding for our startup with flexible repayment options and expert guidance."</p>
         </div>
 
         <div class="testimonial-item text-center">
-          <img src="assets/img/r-img5.jpg" alt="" class="rounded-circle mb-3">
+          <img src="assets/img/r-img6.jpg" alt="" class="rounded-circle mb-3">
           
-            <h6>Harshawardhan Agale</h6>
+            <h6>Nikita Dahatonde</h6>
               <span>Chief Financial Analyst</span>
               <div class="rating">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
+                  <i class="fas fa-star"></i>
               </div>
-              <p>"Thanks to the Project Finance services, we secured funding for our startup with flexible repayment options and expert guidance."</p>
+              <p>"With expert consultation, we navigated complex financial procedures and secured funds for our new project without any hassle."</p>
       </div>
 
-      <div class="testimonial-item text-center">
-        <img src="assets/img/r-img6.jpg" alt="" class="rounded-circle mb-3">
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- End of testimonial -->
+
+  <!-- Our team start -->
+  <section class="doctors-section py-5" id="team">
+    <div class="container text-center">
+      <div class="section-heading" >
+        <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900"> <em>Our Team</em></h2>
+        <span data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">Meet Our Experts in Financial Consulting</span>
+      </div>
+      <div class="row mt-5">
+
+        <div class="col-md-4 mb-5 mt-2"  data-aos="fade-up"
+        data-aos-duration="2000">
+          <div class="card doctor-card">
+            <div class="doctor-img">
+              <img src="assets/img/team1.jpeg" class="card-img-top" alt="Drumil Shere">
+              <div class="overlay-icons">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="card-body bg-light">
+              <h5 class="card-title">Drumil Shere</h5>
+              <p class="text-danger mb-1">(CA)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-5 mt-2" data-aos="fade-down"
+        data-aos-duration="2000">
+          <div class="card doctor-card">
+            <div class="doctor-img">
+              <img src="assets/img/team2.jpeg" class="card-img-top" alt="Ankit More">
+              <div class="overlay-icons">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="card-body bg-light">
+              <h5 class="card-title">Ankit More</h5>
+              <p class="text-danger mb-1">(Managing Partner)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-5 mt-2"  data-aos="fade-up"
+        data-aos-duration="2000">
+          <div class="card doctor-card">
+            <div class="doctor-img">
+              <img src="assets/img/team3.jpeg" class="card-img-top" alt="Kiran More">
+              <div class="overlay-icons">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="card-body bg-light">
+              <h5 class="card-title">Kiran More</h5>
+              <p class="text-danger mb-1">(Finance Executive)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 mb-5 mt-2"></div>
+
+        <div class="col-md-4 mb-5 mt-2"  data-aos="fade-down"
+        data-aos-duration="2000">
+          <div class="card doctor-card">
+            <div class="doctor-img">
+              <img src="assets/img/team4.jpeg" class="card-img-top" alt="Drumil Shere">
+              <div class="overlay-icons">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="card-body bg-light">
+              <h5 class="card-title">Ankush Verma</h5>
+              <p class="text-danger mb-1">(Business Head)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-5 mt-2"  data-aos="fade-up"
+        data-aos-duration="2000">
+          <div class="card doctor-card">
+            <div class="doctor-img">
+              <img src="assets/img/team5.jpeg" class="card-img-top" alt="Ankit More">
+              <div class="overlay-icons">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="card-body bg-light">
+              <h5 class="card-title">Raj Patil</h5>
+              <p class="text-danger mb-1">(Finance Executive)</p>
+            </div>
+          </div>
+        </div>
         
-          <h6>Nikita Dahatonde</h6>
-            <span>Chief Financial Analyst</span>
-            <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <p>"With expert consultation, we navigated complex financial procedures and secured funds for our new project without any hassle."</p>
+
+      </div>
     </div>
+  </section>
 
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
- <!-- End of testimonial -->
-
-<!-- Our team start -->
-<section class="doctors-section py-5" id="team">
-  <div class="container text-center">
-    <div class="section-heading" >
-      <h2> <em>Our Team</em></h2>
-      <span>Meet Our Experts in Financial Consulting</span>
+  <section class="subsidy-section py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Left Content -->
+            <div class="col-lg-6 text-light">
+                <h6 class="text-danger font-weight-bold wow bounce animate__animated animate__bounce">SUBSIDY ASSISTANCE</h6>
+                <h2 class="font-weight-bold"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="600">Maximize Your Financial Benefits with Expert Subsidy Support</h2>
+                <p class="text-white"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800">At AND Capita, we specialize in guiding businesses through the complex landscape of subsidy schemes. Our team provides expert assistance in securing industrial subsidies, project finance, and other financial aids.</p>
+            </div>
+            <!-- Right Content: Bootstrap Carousel -->
+            <div class="col-lg-6 position-relative"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
+                <div id="subsidyCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Slide 1: Industrial Subsidies -->
+                        <div class="carousel-item active">
+                            <div class="card text-center p-4">
+                                <i class="fas fa-hand-holding-usd icon-style"></i>
+                                <h5 class="text-dark font-weight-bold">Industrial Subsidies</h5>
+                                <p>Navigate the application process for Maharashtra state government industrial subsidies with ease.</p>
+                            </div>
+                        </div>
+                        <!-- Slide 2: Project Finance -->
+                        <div class="carousel-item">
+                            <div class="card text-center p-4">
+                                <i class="fas fa-file-invoice-dollar icon-style"></i>
+                                <h5 class="text-dark font-weight-bold">Project Finance</h5>
+                                <p>Secure project finance with our expert support, including assistance with CMEGP, PMEGP.</p>
+                            </div>
+                        </div>
+                        <!-- Slide 3: Credit Guarantees -->
+                        <div class="carousel-item">
+                            <div class="card text-center p-4">
+                                <i class="fas fa-check-circle icon-style"></i>
+                                <h5 class="text-dark font-weight-bold">Credit Guarantees</h5>
+                                <p>Access credit guarantee schemes like CGTMSE to secure loans and financing for your business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Custom Carousel Controls -->
+                    <a class="carousel-control-prev custom-arrow left-arrow" href="#subsidyCarousel" role="button" data-slide="prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a class="carousel-control-next custom-arrow right-arrow" href="#subsidyCarousel" role="button" data-slide="next">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row mt-5">
+  </section>
 
-      <!-- team 1 -->
-      <div class="col-md-4 mb-5 mt-2">
-        <div class="card doctor-card">
-          <div class="doctor-img">
-            <img src="assets/img/team1.jpeg" class="card-img-top" alt="Drumil Shere">
-            <div class="overlay-icons">
-              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-            </div>
-          </div>
-          <div class="card-body bg-light">
-            <h5 class="card-title">Drumil Shere</h5>
-            <p class="text-danger mb-1">(CA)</p>
-          </div>
+  <!-- SUBSIDY ASSISTANCE end -->
+
+  <!-- Our Clients start -->
+      <div class="partners py-5">
+        <div class="container">
+          <div class="section-heading">
+            <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900"><em>Our Clients</em></h2>
+            <span data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">Trusted by businesses for growth and financial solutions</span>
         </div>
-      </div>
-
-      <!-- team 2 -->
-      <div class="col-md-4 mb-5 mt-2">
-        <div class="card doctor-card">
-          <div class="doctor-img">
-            <img src="assets/img/team2.jpeg" class="card-img-top" alt="Ankit More">
-            <div class="overlay-icons">
-              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="partner-item ">
+                            <img src="assets/img/clients1.png" class="img-fluid" title="1" alt="1">
+                        </div>
+                        <div class="partner-item">
+                            <img src="assets/img/clients2.webp" class="img-fluid" title="2" alt="2">
+                        </div>
+                        <div class="partner-item">
+                            <img src="assets/img/clients3.webp" class="img-fluid mt-5" title="3" alt="3" >
+                        </div>
+                        <div class="partner-item">
+                            <img src="assets/img/clients4.jpeg" class="img-fluid" title="4" alt="4">
+                        </div>
+                        <div class="partner-item">
+                            <img src="assets/img/clients5.jpeg" class="img-fluid mt-5" title="5" alt="5">
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="card-body bg-light">
-            <h5 class="card-title">Ankit More</h5>
-            <p class="text-danger mb-1">(Managing Partner)</p>
-          </div>
         </div>
-      </div>
-
-      <!-- team 3 -->
-      <div class="col-md-4 mb-5 mt-2">
-        <div class="card doctor-card">
-          <div class="doctor-img">
-            <img src="assets/img/team3.jpeg" class="card-img-top" alt="Kiran More">
-            <div class="overlay-icons">
-              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-            </div>
-          </div>
-          <div class="card-body bg-light">
-            <h5 class="card-title">Kiran More</h5>
-            <p class="text-danger mb-1">(Finance Executive)</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 mb-5 mt-2"></div>
-
-      <!-- team 4 -->
-      <div class="col-md-4 mb-5 mt-2">
-        <div class="card doctor-card">
-          <div class="doctor-img">
-            <img src="assets/img/team4.jpeg" class="card-img-top" alt="Drumil Shere">
-            <div class="overlay-icons">
-              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-            </div>
-          </div>
-          <div class="card-body bg-light">
-            <h5 class="card-title">Ankush Verma</h5>
-            <p class="text-danger mb-1">(Business Head)</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- team 5 -->
-      <div class="col-md-4 mb-5 mt-2">
-        <div class="card doctor-card">
-          <div class="doctor-img">
-            <img src="assets/img/team5.jpeg" class="card-img-top" alt="Ankit More">
-            <div class="overlay-icons">
-              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-            </div>
-          </div>
-          <div class="card-body bg-light">
-            <h5 class="card-title">Raj Patil</h5>
-            <p class="text-danger mb-1">(Finance Executive)</p>
-          </div>
-        </div>
-      </div>
-      
-
     </div>
-  </div>
-</section>
-<!-- our team end -->
+    <!--Our Clients end  -->
 
 
-
-    <!-- <div class="callback-form">
-      <div class="container">
-          <div class="row justify-content-center">
-              <div class="col-lg-8 text-center">
-                  <div class="section-heading">
-                      <h2>Request a <em>Call Back</em></h2>
-                      <p>Etiam suscipit ante a odio consequat</p>
-                  </div>
-              </div>
-          </div>
-          <div class="row justify-content-center">
-              <div class="col-lg-8">
-                  <form id="contact-form" action="" method="post" class="contact-form">
-                      <div class="row">
-                          <div class="col-md-6">
-                              <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required>
-                          </div>
-                          <div class="col-md-6">
-                              <input name="email" type="email" class="form-control" id="email" placeholder="E-Mail Address" required>
-                          </div>
-                          <div class="col-md-12">
-                              <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required>
-                          </div>
-                          <div class="col-md-12">
-                              <textarea name="message" rows="5" class="form-control" id="message" placeholder="Your Message" required></textarea>
-                          </div>
-                          <div class="col-md-12 text-center">
-                    <button type="submit" id="form-submit" class="btn btn-primary">Send Message</button>
-                          </div>
-                      </div>
-                  </form>
-              </div>
-          </div>
-      </div>
-  </div> -->
-<!-- SUBSIDY ASSISTANCE start  -->
-<section class="subsidy-section py-5">
-  <div class="container">
-      <div class="row">
-          <!-- Left Content -->
-          <div class="col-lg-6 text-light">
-              <h6 class="text-danger font-weight-bold">SUBSIDY ASSISTANCE</h6>
-              <h2 class="font-weight-bold">Maximize Your Financial Benefits with Expert Subsidy Support</h2>
-              <p class="text-white">At AND Capita, we specialize in guiding businesses through the complex landscape of subsidy schemes. Our team provides expert assistance in securing industrial subsidies, project finance, and other financial aids.</p>
-          </div>
-          <!-- Right Content: Bootstrap Carousel -->
-          <div class="col-lg-6 position-relative">
-              <div id="subsidyCarousel" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                      <!-- Slide 1: Industrial Subsidies -->
-                      <div class="carousel-item active">
-                          <div class="card text-center p-4">
-                              <i class="fas fa-hand-holding-usd icon-style"></i>
-                              <h5 class="text-dark font-weight-bold">Industrial Subsidies</h5>
-                              <p>Navigate the application process for Maharashtra state government industrial subsidies with ease.</p>
-                          </div>
-                      </div>
-                      <!-- Slide 2: Project Finance -->
-                      <div class="carousel-item">
-                          <div class="card text-center p-4">
-                              <i class="fas fa-file-invoice-dollar icon-style"></i>
-                              <h5 class="text-dark font-weight-bold">Project Finance</h5>
-                              <p>Secure project finance with our expert support, including assistance with CMEGP, PMEGP.</p>
-                          </div>
-                      </div>
-                      <!-- Slide 3: Credit Guarantees -->
-                      <div class="carousel-item">
-                          <div class="card text-center p-4">
-                              <i class="fas fa-check-circle icon-style"></i>
-                              <h5 class="text-dark font-weight-bold">Credit Guarantees</h5>
-                              <p>Access credit guarantee schemes like CGTMSE to secure loans and financing for your business.</p>
-                          </div>
-                      </div>
-                  </div>
-                  <!-- Custom Carousel Controls -->
-                  <a class="carousel-control-prev custom-arrow left-arrow" href="#subsidyCarousel" role="button" data-slide="prev">
-                      <i class="fas fa-chevron-left"></i>
-                  </a>
-                  <a class="carousel-control-next custom-arrow right-arrow" href="#subsidyCarousel" role="button" data-slide="next">
-                      <i class="fas fa-chevron-right"></i>
-                  </a>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
-
-<!-- SUBSIDY ASSISTANCE end -->
-
-<!-- Our Clients start -->
-    <div class="partners py-5">
-      <div class="container">
-        <div class="section-heading">
-          <h2><em>Our Clients</em></h2>
-          <span>Trusted by businesses for growth and financial solutions</span>
-      </div>
+      <!-- Footer Starts Here -->
+      <footer>
+        <div class="container">
           <div class="row">
-              <div class="col-md-12">
-                  <div class="owl-carousel owl-theme">
-                      <div class="partner-item ">
-                          <img src="assets/img/clients1.png" class="img-fluid" title="1" alt="1">
-                      </div>
-                      <div class="partner-item">
-                          <img src="assets/img/clients2.webp" class="img-fluid" title="2" alt="2">
-                      </div>
-                      <div class="partner-item">
-                          <img src="assets/img/clients3.webp" class="img-fluid mt-5" title="3" alt="3" >
-                      </div>
-                      <div class="partner-item">
-                          <img src="assets/img/clients4.jpeg" class="img-fluid" title="4" alt="4">
-                      </div>
-                      <div class="partner-item">
-                          <img src="assets/img/clients5.jpeg" class="img-fluid mt-5" title="5" alt="5">
-                      </div>
-                  </div>
-              </div>
+            <div class="col-md-3 footer-item">
+              <img src="assets/img/logo.png" width="200px" class="mb-4">
+              <h4>Empowering Businesses with Tailored Financial Solutions.</h4>
+              <!-- <p>Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus augue hasellus lacinia sapien vitae.</p> -->
+              
+            </div>
+            <div class="col-md-3 footer-item">
+              <h4>Useful Links</h4>
+              <ul class="menu-list">
+                  <li><a href="index.html"><i class="fa fa-angle-right"></i> Home</a></li>
+                  <li><a href="about.html"><i class="fa fa-angle-right"></i> About Us</a></li>
+                  <li><a href="services.html"><i class="fa fa-angle-right"></i> Our Services</a></li>
+                  <li><a href="index.html#testimonials"><i class="fa fa-angle-right"></i> Testimonials</a></li>
+                  <li><a href="index.html#team"><i class="fa fa-angle-right"></i> Our Team</a></li>
+                  <li><a href="contact.html"><i class="fa fa-angle-right"></i> Contact Us</a></li>
+              </ul>
           </div>
-      </div>
-  </div>
-  <!--Our Clients end  -->
-
-
-    <!-- Footer Starts Here -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 footer-item">
-            <img src="assets/img/logo.png" width="200px" class="mb-4">
-            <h4>Empowering Businesses with Tailored Financial Solutions.</h4>
-            <!-- <p>Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus augue hasellus lacinia sapien vitae.</p> -->
-            
+            <div class="col-md-3 footer-item last-item">
+              <h4>Contact Us</h4>
+              <p><i class="fa fa-phone"></i> <a href="tel:+918830629203" class="text-white">+91 8830629203</a></p>
+              <p><i class="fa fa-envelope"></i> <a href="mailto:info@andcapita.com" class="text-white">info@andcapita.com</a></p>
+              <p><i class="fa fa-map-marker"></i> ANDCAPITA , The Hub, A-102, opposite Shete Hospital, Samartha Nagar, Parijat Nagar, Nashik, Maharashtra 422005</p>
+            </div>
+            <div class="col-md-3 footer-item">
+              <h4>Follow Us</h4>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
           </div>
-          <div class="col-md-3 footer-item">
-            <h4>Useful Links</h4>
-            <ul class="menu-list">
-                <li><a href="index.html"><i class="fa fa-angle-right"></i> Home</a></li>
-                <li><a href="about.html"><i class="fa fa-angle-right"></i> About Us</a></li>
-                <li><a href="services.html"><i class="fa fa-angle-right"></i> Our Services</a></li>
-                <li><a href="index.html#testimonials"><i class="fa fa-angle-right"></i> Testimonials</a></li>
-                <li><a href="index.html#team"><i class="fa fa-angle-right"></i> Our Team</a></li>
-                <li><a href="contact.html"><i class="fa fa-angle-right"></i> Contact Us</a></li>
-            </ul>
         </div>
-          <div class="col-md-3 footer-item last-item">
-            <h4>Contact Us</h4>
-            <p><i class="fa fa-phone"></i> <a href="tel:+918830629203" class="text-white">+91 8830629203</a></p>
-            <p><i class="fa fa-envelope"></i> <a href="mailto:info@andcapita.com" class="text-white">info@andcapita.com</a></p>
-            <p><i class="fa fa-map-marker"></i> ANDCAPITA , The Hub, A-102, opposite Shete Hospital, Samartha Nagar, Parijat Nagar, Nashik, Maharashtra 422005</p>
-          </div>
-          <div class="col-md-3 footer-item">
-            <h4>Follow Us</h4>
-            <ul class="social-icons">
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-              <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
+      </footer>
+      
+      <div class="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Copyright &copy; 2025 Andcapita.
+              
+                All rights reserved | Designed by : <a rel="nofollow noopener" href="https://a2zithub.org/" target="_blank">A2Z IT HUB</a><br>
+            </p>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    
-    <div class="sub-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p>Copyright &copy; 2025 Andcapita.
-            
-              All rights reserved | Designed by : <a rel="nofollow noopener" href="https://a2zithub.org/" target="_blank">A2Z IT HUB</a><br>
-          </p>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Additional Scripts -->
+      <!-- Additional Scripts -->
 
 
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/accordions.js"></script>
+      <script src="assets/js/custom.js"></script>
+      <script src="assets/js/owl.js"></script>
+      <script src="assets/js/slick.js"></script>
+      <script src="assets/js/accordions.js"></script>
 
-    <script language = "text/Javascript"> 
-      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-      function clearField(t){                   //declaring the array outside of the
-      if(! cleared[t.id]){                      // function makes it static and global
-          cleared[t.id] = 1;  // you could use true and false, but that's more typing
-          t.value='';         // with more chance of typos
-          t.style.color='#fff';
-          }
-      }
-    </script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    function typeEffect(element, text, speed) {
-        let index = 0;
-        element.innerHTML = ""; // Clear text before typing effect
-
-        function type() {
-            if (index < text.length) {
-                element.innerHTML += text.charAt(index);
-                index++;
-                setTimeout(type, speed);
+      <script language = "text/Javascript"> 
+        cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+        function clearField(t){                   //declaring the array outside of the
+        if(! cleared[t.id]){                      // function makes it static and global
+            cleared[t.id] = 1;  // you could use true and false, but that's more typing
+            t.value='';         // with more chance of typos
+            t.style.color='#fff';
             }
         }
+      </script>
 
-        type();
-    }
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      function typeEffect(element, text, speed) {
+          let index = 0;
+          element.innerHTML = ""; // Clear text before typing effect
 
-    let observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            let h4 = entry.target;
-            if (entry.isIntersecting && !h4.classList.contains("typing-done")) {
-                h4.classList.add("typing-done"); // Prevents re-triggering while in view
-                h4.textContent = ""; // Clear text before starting animation
-                typeEffect(h4, h4.dataset.text, 100); // Typing speed: 100ms
+          function type() {
+              if (index < text.length) {
+                  element.innerHTML += text.charAt(index);
+                  index++;
+                  setTimeout(type, speed);
+              }
+          }
 
-                // Remove class after animation so it can run again when scrolled back
+          type();
+      }
+
+      let observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+              let h4 = entry.target;
+              if (entry.isIntersecting && !h4.classList.contains("typing-done")) {
+                  h4.classList.add("typing-done"); // Prevents re-triggering while in view
+                  h4.textContent = ""; // Clear text before starting animation
+                  typeEffect(h4, h4.dataset.text, 100); // Typing speed: 100ms
+
+                  // Remove class after animation so it can run again when scrolled back
+                  setTimeout(() => {
+                      h4.classList.remove("typing-done");
+                  }, h4.dataset.text.length * 100 + 500); // Remove after typing ends
+              }
+          });
+      }, { threshold: 0.5 });
+
+      document.querySelectorAll(".Modern-Slider .text-content h4").forEach(h4 => {
+          h4.dataset.text = h4.textContent.trim(); // Store original text
+          h4.textContent = ""; // Clear initial text
+          observer.observe(h4);
+      });
+    });
+  </script>
+  <!-- Script of Why Choose AND Capita -->
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+        const text = "Our solutions for your business growth";
+        const typingElement = document.getElementById("typing-text");
+        let index = 0;
+        let isTyping = false;
+    
+        function typeEffect() {
+            if (index < text.length) {
+                typingElement.innerHTML = text.substring(0, index + 1) + "<em>_</em>"; // Typing effect
+                index++;
+                setTimeout(typeEffect, 50); // Typing speed
+            } else {
+                typingElement.innerHTML = text.replace("business growth", "<em>business growth</em>"); // Final format
                 setTimeout(() => {
-                    h4.classList.remove("typing-done");
-                }, h4.dataset.text.length * 100 + 500); // Remove after typing ends
+                    index = 0; // Reset index
+                    isTyping = false; // Allow re-trigger
+                }, 2000); // Delay before resetting (adjust as needed)
+            }
+        }
+    
+        function handleScroll() {
+            const elementPosition = typingElement.getBoundingClientRect().top;
+            const screenHeight = window.innerHeight;
+    
+            if (elementPosition < screenHeight && !isTyping) {
+                isTyping = true; // Prevent multiple triggers at once
+                typeEffect();
+            }
+        }
+    
+        window.addEventListener("scroll", handleScroll);
+    });
+    </script>
+
+
+    <!-- Initialize Owl Carousel -->
+  <script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            loop: true,             // स्लायडर सतत फिरत राहील
+            margin: 10,             // इमेजेसमधील अंतर
+            nav: true,              // नेव्हिगेशन बटणे
+            autoplay: true,         // ऑटो प्ले
+            autoplayTimeout: 3000,  // 3 सेकंदांनी स्लाइड बदला
+            responsive:{
+                0:{ items: 1 },     // मोबाईलसाठी 1 आयटम
+                600:{ items: 3 },   // टॅब्लेटसाठी 3 आयटम
+                1000:{ items: 5 }   // डेस्कटॉपसाठी 5 आयटम
             }
         });
-    }, { threshold: 0.5 });
-
-    document.querySelectorAll(".Modern-Slider .text-content h4").forEach(h4 => {
-        h4.dataset.text = h4.textContent.trim(); // Store original text
-        h4.textContent = ""; // Clear initial text
-        observer.observe(h4);
     });
-  });
-</script>
-<!-- Script of Why Choose AND Capita -->
-<script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", function () {
-      const text = "Our solutions for your business growth";
-      const typingElement = document.getElementById("typing-text");
-      let index = 0;
-      let isTyping = false;
+  </script>
+
+  <!-- Initialize Owl Carousel  Testimonail-->
+  <script>
+    $(document).ready(function(){
+        $(".owl-testimonials").owlCarousel({
+            loop: true,       // Infinite Loop
+            margin: 20,       // Space between items
+            nav: true,        // Next/Prev Buttons
+            dots: true,       // Show Dots
+            autoplay: true,   // Auto slide
+            autoplayTimeout: 3000, // Slide Change Time (3 sec)
+            responsive:{
+                0:{ items:1 },  
+                600:{ items:2 },
+                1000:{ items:2 }
+            }
+        });
+    });
+  </script>
+
   
-      function typeEffect() {
-          if (index < text.length) {
-              typingElement.innerHTML = text.substring(0, index + 1) + "<em>_</em>"; // Typing effect
-              index++;
-              setTimeout(typeEffect, 50); // Typing speed
-          } else {
-              typingElement.innerHTML = text.replace("business growth", "<em>business growth</em>"); // Final format
-              setTimeout(() => {
-                  index = 0; // Reset index
-                  isTyping = false; // Allow re-trigger
-              }, 2000); // Delay before resetting (adjust as needed)
-          }
-      }
-  
-      function handleScroll() {
-          const elementPosition = typingElement.getBoundingClientRect().top;
-          const screenHeight = window.innerHeight;
-  
-          if (elementPosition < screenHeight && !isTyping) {
-              isTyping = true; // Prevent multiple triggers at once
-              typeEffect();
-          }
-      }
-  
-      window.addEventListener("scroll", handleScroll);
-  });
+
+
+  <!-- Dropdown -->
+  <script>
+    $(document).ready(function(){
+      $('.dropdown-toggle').dropdown();
+    });
   </script>
 
 
-  <!-- Initialize Owl Carousel -->
-<script>
-  $(document).ready(function(){
-      $(".owl-carousel").owlCarousel({
-          loop: true,             // स्लायडर सतत फिरत राहील
-          margin: 10,             // इमेजेसमधील अंतर
-          nav: true,              // नेव्हिगेशन बटणे
-          autoplay: true,         // ऑटो प्ले
-          autoplayTimeout: 3000,  // 3 सेकंदांनी स्लाइड बदला
-          responsive:{
-              0:{ items: 1 },     // मोबाईलसाठी 1 आयटम
-              600:{ items: 3 },   // टॅब्लेटसाठी 3 आयटम
-              1000:{ items: 5 }   // डेस्कटॉपसाठी 5 आयटम
-          }
-      });
-  });
-</script>
-
-<!-- Initialize Owl Carousel  Testimonail-->
-<script>
-  $(document).ready(function(){
-      $(".owl-testimonials").owlCarousel({
-          loop: true,       // Infinite Loop
-          margin: 20,       // Space between items
-          nav: true,        // Next/Prev Buttons
-          dots: true,       // Show Dots
-          autoplay: true,   // Auto slide
-          autoplayTimeout: 3000, // Slide Change Time (3 sec)
-          responsive:{
-              0:{ items:1 },  
-              600:{ items:2 },
-              1000:{ items:2 }
-          }
-      });
-  });
-</script>
 
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-
-<script>
-  AOS.init();
-</script>
-
-
-  </body>
+</body>
 </html>
