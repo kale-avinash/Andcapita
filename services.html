@@ -15,16 +15,16 @@
   <!-- Open Graph (OG) for Social Media -->
   <meta property="og:title" content="Andcapita - Business & Financial Consulting">
   <meta property="og:description" content="Your trusted partner in finance, strategy, and business consulting. Maximize your growth with expert solutions.">
-  <meta property="og:image" content="https://yourwebsite.com/assets/img/logo2.png">
-  <meta property="og:url" content="https://yourwebsite.com">
+<!--   <meta property="og:image" content="https://yourwebsite.com/assets/img/logo2.png">
+ -->  <meta property="og:url" content="https://yourwebsite.com">
   <meta property="og:type" content="website">
 
   <!-- Twitter Card for Social Sharing -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Andcapita - Business & Financial Consulting">
   <meta name="twitter:description" content="Expert consulting in finance, investment, and business strategy.">
-  <meta name="twitter:image" content="https://yourwebsite.com/assets/img/logo2.png">
-
+<!--   <meta name="twitter:image" content="https://yourwebsite.com/assets/img/logo2.png">
+ -->
   <!-- Canonical URL -->
   <link rel="canonical" href="https://yourwebsite.com">
 
@@ -40,11 +40,17 @@
   <link rel="icon" href="assets/img/logo2.png" type="image/gif">
 
   <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="assets/css/fontawesome.css">
+   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
   <link rel="stylesheet" href="assets/css/owl.css">
 
-  <!-- jQuery -->
+  <!-- Include jQuery, Popper.js, Bootstrap 4.3 JS, and Owl Carousel JS -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+ 
+ -->
+ <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 <!-- Popper.js -->
@@ -56,9 +62,45 @@
   <!-- Include Owl Carousel CSS Testimonial -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+ 
+<!-- Animate.css for animations -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
+  <!-- Include Animate.css for animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!-- jQuery (required for WOW.js) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Add WOW.js CSS for animations -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+<!-- Add WOW.js JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<script>
+  // Initialize WOW.js
+  document.addEventListener("DOMContentLoaded", function() {
+    new WOW().init();
+  });
+</script>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    AOS.init({
+      once: false,  // Animations trigger every time you scroll
+      mirror: true, // Animates when scrolling back up
+    });
+
+    window.addEventListener('scroll', function () {
+      AOS.refresh(); // Force refresh on scroll
+    });
+  });
+ </script>
 </head>
-
 
   <body>
 
@@ -150,37 +192,37 @@
       </div>
     </div>
 
-    <div class="single-services mb-5">
+    <div class="single-services mb-5" >
       <div class="container">
         <div class="row" id="tabs">
           <div class="col-md-4 ">
             <ul>
-              <li><a href='#tabs-1'>Industrial Subsidy Schemes <i class="fa fa-angle-right"></i></a></li>
-              <li><a href='#tabs-2'>Project Finance<i class="fa fa-angle-right"></i></a></li>
-              <li><a href='#tabs-3'>Business Consultation<i class="fa fa-angle-right"></i></a></li>
+              <li  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000"><a href='#tabs-1'>Industrial Subsidy Schemes <i class="fa fa-angle-right" ></i></a></li>
+              <li  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1100"><a href='#tabs-2'>Project Finance<i class="fa fa-angle-right"></i></a></li>
+              <li  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1200"><a href='#tabs-3'>Business Consultation<i class="fa fa-angle-right"></i></a></li>
             </ul>
           </div>
           <div class="col-md-8">
             <section class='tabs-content'>
               <article id='tabs-1'>
-                <img src="assets/img/services5.jpg" alt="" height="400px" width="100%">
-                <h4>Industrial Subsidy Schemes</h4>
-                <p>Industrial subsidy schemes are government initiatives designed to promote business growth by providing financial assistance, tax benefits, and other incentives to eligible enterprises. These schemes aim to encourage investment, employment, and economic development across various sectors and regions. </p>
-                <a class="services_btn mt-4" href="industrial_subsidy.html" >Read More</a>
+                <img src="assets/img/services5.jpg" alt="" height="400px" width="100%"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="900">
+                <h4 class="wow bounce animate__animated animate__bounce">Industrial Subsidy Schemes</h4>
+                <p data-aos="fade-left"  data-aos-easing="linear" data-aos-duration="1000">Industrial subsidy schemes are government initiatives designed to promote business growth by providing financial assistance, tax benefits, and other incentives to eligible enterprises. These schemes aim to encourage investment, employment, and economic development across various sectors and regions. </p>
+                <a class="services_btn mt-4" href="industrial_subsidy.html" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1200">Read More</a>
 
               </article>
               <article id='tabs-2'>
-                <img src="assets/img/services6.jpg" alt=""  height="400px" width="100%">
-                <h4>Project Finance</h4>
-                <p>There are a lot of ways to finance your business and reach success. There’s no one sure way to fund your activities simply because every investment opportunity is unique. However, successful business development entails financial planning so that you will have capital when it is needed. </p>
-                <a class="services_btn mt-4"  href="project_finance.html">Read More</a>
+                <img src="assets/img/services6.jpg" alt=""  height="400px" width="100%"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="900">
+                <h4  class="wow bounce animate__animated animate__bounce">Project Finance</h4>
+                <p data-aos="fade-left"  data-aos-easing="linear" data-aos-duration="1000">There are a lot of ways to finance your business and reach success. There’s no one sure way to fund your activities simply because every investment opportunity is unique. However, successful business development entails financial planning so that you will have capital when it is needed. </p>
+                <a class="services_btn mt-4"  href="project_finance.html" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1200">Read More</a>
 
               </article>
               <article id='tabs-3'>
-                <img src="assets/img/services7.jpg" alt=""  height="400px" width="100%">
-                <h4>Business Consultation</h4>
-                <p>Business consultation is professional guidance provided by experts to help individuals and organizations start, manage, and grow their businesses. It covers various aspects such as business planning, market research, financial management, marketing strategies, legal compliance, and customer relationship management. A business consultant analyzes the current state of a business, identifies challenges and opportunities, and suggests solutions to improve efficiency and profitability.</p>
-                <a class="services_btn mt-4" href="business_consultation.html">Read More</a>
+                <img src="assets/img/services7.jpg" alt=""  height="400px" width="100%"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="900">
+                <h4 class="wow bounce animate__animated animate__bounce">Business Consultation</h4>
+                <p data-aos="fade-left"  data-aos-easing="linear" data-aos-duration="1000">Business consultation is professional guidance provided by experts to help individuals and organizations start, manage, and grow their businesses. It covers various aspects such as business planning, market research, financial management, marketing strategies, legal compliance, and customer relationship management. A business consultant analyzes the current state of a business, identifies challenges and opportunities, and suggests solutions to improve efficiency and profitability.</p>
+                <a class="services_btn mt-4" href="business_consultation.html" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1200">Read More</a>
               </article>
             </section>
           </div>
@@ -263,6 +305,14 @@
           }
       }
     </script>
+
+     <!-- Dropdown -->
+  <script>
+    $(document).ready(function(){
+      $('.dropdown-toggle').dropdown();
+    });
+  </script>
+
 
   </body>
 </html>
