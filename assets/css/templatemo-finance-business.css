@@ -1328,21 +1328,15 @@ transform: translateX(5px);
 
 
 /* end testimonial  *
-
-
-/* contact section */
-
-
+/* contact css */
 .contact-container {
-	background-color: #f7f7f7;
+    background-color: #f7f7f7;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
     width: 100%;
-	padding: 100px;
-	
-
+    padding: 100px;
 }
 
 .contact-item {
@@ -1352,12 +1346,11 @@ transform: translateX(5px);
     padding: 15px 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 45%;
     margin: 10px;
 }
 
 .icon {
-    background:rgb(200,33,34);
+    background: rgb(200,33,34);
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -1386,20 +1379,17 @@ transform: translateX(5px);
     color: #333;
     margin: 0;
 }
-.text a{
-	color:rgb(200,33,34);;
+
+.text a {
+    color: rgb(200,33,34);
 }
-
-
-
 
 /* ✅ Mobile Responsive Design */
 @media screen and (max-width: 768px) {
     .contact-container {
         flex-direction: column;
         align-items: center;
-		padding: 0px;
-	
+        padding: 0px;
     }
     
     .contact-item {
@@ -1418,97 +1408,7 @@ transform: translateX(5px);
         text-align: center;
     }
 }
-/*end  contact section */
-
-/* contact section */
-
-.contact-container {
-	background-color: #f7f7f7;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
-    width: 100%;
-	padding: 100px;
-	
-
-}
-
-.contact-item {
-    display: flex;
-    align-items: center;
-    background: white;
-    padding: 15px 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 45%;
-    margin: 10px;
-}
-
-.icon {
-    background:rgb(200,33,34);
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.icon i {
-    color: white;
-    font-size: 24px;
-}
-
-.text {
-    margin-left: 15px;
-    text-align: left;
-}
-
-.text h4 {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.text p {
-    font-size: 16px;
-    color: #333;
-    margin: 0;
-}
-.text a{
-	color:rgb(200,33,34);;
-}
-
-
-
-
-/* ✅ Mobile Responsive Design */
-@media screen and (max-width: 768px) {
-    .contact-container {
-        flex-direction: column;
-        align-items: center;
-		padding: 0px;
-	
-    }
-    
-    .contact-item {
-        width: 90%;
-        max-width: 400px;
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .icon {
-        margin-bottom: 10px;
-    }
-    
-    .text {
-        margin-left: 0;
-        text-align: center;
-    }
-}
-/*end  contact section */
-
+/* end of contact css */
 /* Call Back Style */
 
 /* Background color for the form container */

@@ -150,71 +150,66 @@
         </div>
       </div>
     </div>
-
-    <div class="container mt-5">
-      <div class="row">
+  
     
+    <div class="container mt-5">
+      <div class="row justify-content-center">
         <!-- Phone Section - 6 Columns -->
-        <div class="col-md-6 col-lg-12">
-          <div class="contact-item p-5" 
+        <div class="col-md-6">
+          <div class="contact-item p-5 d-flex align-items-center justify-content-start p-4" 
                style="background: url('https://img.freepik.com/premium-photo/young-woman-using-smartphone-home-does-remote-work-beautiful-smiling-girl-sitting-floor-works-with-papers-documents-brainstorms-creative-project-with-online-research-sunny-living-room_861143-3561.jpg') no-repeat center center; 
                       background-size: cover; 
-                    
+                      height: 200px; 
                       border-radius: 10px; 
-                      text-align: center; 
+                      text-align: left; 
                       transition: transform 0.3s ease-in-out;">
-    
-            <div class="icon">
-              <i class="fa fa-phone" style="font-size: 30px; margin-bottom: 10px;"></i>
+            <div class="icon me-3">
+              <i class="fa fa-phone" style="font-size: 30px; color: white;"></i>
             </div>
             <div class="text">
-              <h4 style="color: white; font-weight: bold;">Phone</h4>
-              <p style="color: white; font-weight: bold;">Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
+              <h4 style="color: white; font-weight: bold; margin-bottom: 5px;">Phone</h4>
               <a href="tel:+918830629203" style="color: #ffcc00; text-decoration: none; font-weight: bold;">+91 8830629203</a>
             </div>
           </div>
         </div>
     
         <!-- Email Section - 6 Columns -->
-        <div class="col-md-6 col-lg-12">
-          <div class="contact-item p-5" 
-               style="background: url('https://img.freepik.com/premium-photo/email-marketing-concept-hand-touching-envelope-icon-hologram-with-digital-marketing-strategy_34200-467.jpg') no-repeat center center; 
+        <div class="col-md-6">
+          <div class="contact-item p-5 d-flex align-items-center justify-content-start p-4" 
+               style="background: url('https://img.freepik.com/free-photo/technology-empty-coffee-envelope-message_1112-1006.jpg?t=st=1743657294~exp=1743660894~hmac=39675e64abcfdf92153674eea2040389c9473d44fc97bae659e379ad8de7714c&w=900') no-repeat center center; 
                       background-size: cover;
-                  
+                      height: 200px;
                       border-radius: 10px;
-                      text-align: center;
-                      transition: transform 0.3s ease-in-out;">  
-    
-            <div class="icon">
-              <i class="fa fa-envelope" style="font-size: 30px; margin-bottom: 10px;"></i>
+                      text-align: left;
+                      transition: transform 0.3s ease-in-out;">
+            <div class="icon me-3">
+              <i class="fa fa-envelope" style="font-size: 30px; color: white;"></i>
             </div>
             <div class="text">
-              <h4 style="color: white; font-weight: bold;">Email</h4>
-              <p style="color: white; font-weight: bold;">Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
+              <h4 style="color: white; font-weight: bold; margin-bottom: 5px;">Email</h4>
               <a href="mailto:info@andcapita.com" style="color: #ffcc00; text-decoration: none; font-weight: bold;">info@andcapita.com</a>
             </div>
           </div>
         </div>
-    
       </div>
     
-      <div class="row">
-        <!-- Location Section - 12 Columns -->
-        <div class="col-md-12 col-lg-12">
-          <div class="contact-item p-5" 
-               style="background: url('https://img.freepik.com/free-photo/location-pin-symbol-road_1232-900.jpg') no-repeat center center; 
+      <div class="row justify-content-center mt-3">
+        <!-- Location Section - Centered -->
+        <div class="col-md-12 d-flex justify-content-center">
+          <div class="contact-item p-5 d-flex align-items-center justify-content-start p-4" 
+               style="background: url('https://img.freepik.com/free-photo/location-symbol-with-landscape-background_23-2149906273.jpg?t=st=1743657388~exp=1743660988~hmac=53249bf35290f595956be0b10a004383c7305038a077fa09ddfc7ad7465bb359&w=996') no-repeat center center; 
                       background-size: cover; 
-                      padding: 20px; 
+                      height: 300px;
+                      width: 80%;
                       border-radius: 10px; 
-                      text-align: center; 
-                      transition: transform 0.3s ease-in-out;">  
-    
-            <div class="icon">
-              <i class="fa fa-map-marker" style="font-size: 30px; margin-bottom: 10px;"></i>
+                      text-align: left; 
+                      transition: transform 0.3s ease-in-out;">
+            <div class="icon me-3">
+              <i class="fa fa-map-marker" style="font-size: 30px; color: white;"></i>
             </div>
             <div class="text">
-              <h4 style="color: white; font-weight: bold;">Location</h4>
-              <p style="color: white; font-weight: bold;">
+              <h4 style="color: white; font-weight: bold; margin-bottom: 5px;">Location</h4>
+              <p style="color: white; font-weight: bold; margin-bottom: 5px;">
                 ANDCAPITA, The Hub, A-102, opposite Shete Hospital, <br> 
                 Samartha Nagar, Parijat Nagar, Nashik, Maharashtra 422005
               </p>
@@ -225,9 +220,10 @@
       </div>
     </div>
     
+
     <!-- Hover Effect Script -->
     <script>
-      document.querySelectorAll('.contact-item').forEach(item => {
+      document.querySelectorAll('.contact-item p-5').forEach(item => {
         item.addEventListener('mouseenter', function() {
           this.style.transform = 'scale(1.05)';
         });
